@@ -1,0 +1,31 @@
+.heading{
+    color: white;
+}
+
+.projectscontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+span{
+    color: green;
+}
+
+
+.indiproj{
+    height: min-content;
+    width: 350px;
+    background-color: black;
+    transition: transform 0.5s;
+}
+
+.indiproj:hover{
+    transform: scale(1.1);
+}
+
+.projprev{
+    width: 100%;
+    height: 175px;
+}

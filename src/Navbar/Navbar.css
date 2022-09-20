@@ -1,0 +1,42 @@
+.navbar{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.navbarlinks{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remdec{
+    text-decoration: none;
+    color: white;
+}
+
+.remdec:hover{
+    text-decoration: underline green solid 5px;
+}
+
+.collapsed{
+    display: none;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 550px){
+  .navbarlinks{
+    display: none;
+  }
+
+  .collapsed{
+    display: block;
+  }
+}

@@ -1,0 +1,50 @@
+.contactheading{
+    color: white;
+}
+
+.contatcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    color: white;
+}
+
+.ContactSingleCard{
+    width: 250px;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+}
+
+.contheading{
+    margin: 0px;
+}
+
+.maininfo{
+    color: green;
+}
+
+.socialimg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 0.5s;
+}
+
+.socialimg:hover{
+    transform: scale(1.1);
+}
+
+
+.socialhandles{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+}

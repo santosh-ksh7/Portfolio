@@ -1,38 +1,21 @@
 .App {
-  text-align: center;
+  /* background-image: url("https://cdn.dribbble.com/users/1708950/screenshots/4188877/media/e93c404a9544c94b99bbc8574f7b8626.gif"); */
+  /* background-image: url("https://brightsec.com/wp-content/uploads/2022/03/blog-Web-Application-Security_-Top-Threats-and-6-Defensive-Methods.png"); */
+  background-image: url("https://cdn.99images.com/photos/wallpapers/space/stars%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-utnem.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  width: 100%;
+  height: 100vh;
+  /* display: flex;
+  align-items: center; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/* @media (max-width: 550px){
+  .App{
+    align-items: center;
   }
-}
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

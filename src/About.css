@@ -1,0 +1,56 @@
+
+
+.myinfo{
+    color: white;
+    margin-left: 25px;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.linkchild{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: transform 0.5s;
+}
+
+.linkchild:hover{
+    transform: scale(1.1);
+    text-decoration: underline green solid 3px; 
+}
+
+.otherlinks{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.linkdimg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.codimg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 70px;
+}
+
+.maincontabout{
+    display: flex;
+}
+
+
+@media (max-width: 550px){
+    .codimg{
+        display: none;
+    }
+}
