@@ -9,7 +9,7 @@ function About() {
             <h3 className="about">A motivated & dilligent, who likes to keep up with new technology & catch up with the dynamics of the web development world.</h3>
             <div className="links">
                 <Link className="linkchild" to="/">About</Link>
-                <a className="linkchild" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/16iAMfu1MsiWLi3KnP944gnTS2o4RG5jA/view?usp=sharing">Resume</a>
+                <a className="linkchild" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1ca2-CwJA19s8AIClKO-gbGWlA9SroAF1/view?usp=sharing">Resume</a>
                 <Link className="linkchild" to="/projects">Projects</Link>
                 <Link className="linkchild" to="/contact">Contact</Link>
             </div>
