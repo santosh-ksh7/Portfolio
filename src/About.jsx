@@ -6,7 +6,7 @@ function About() {
     <div className="maincontabout">
         <div className="myinfo">
             <h1 className="name">Santosh kumar Singh</h1>
-            <h2 className="about">A motivated & dilligent Full Stack Web developer</h2>
+            <h3 className="about">A motivated & dilligent, who likes to keep up with new technology & catch up with the dynamics of the web development world.</h3>
             <div className="links">
                 <Link className="linkchild" to="/">About</Link>
                 <a className="linkchild" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/16iAMfu1MsiWLi3KnP944gnTS2o4RG5jA/view?usp=sharing">Resume</a>
