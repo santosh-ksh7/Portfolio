@@ -5,11 +5,11 @@ function About() {
   return (
     <div className="maincontabout">
         <div className="myinfo">
-            <h1 className="name">Santosh kumar Singh</h1>
-            <h3 className="about">A motivated & dilligent, who likes to keep up with new technology & catch up with the dynamics of the web development world.</h3>
+            <h3 className="name">Santosh Kumar Singh</h3>
+            <h3 className="about">A motivated & dilligent individual, who likes to keep up with new technology & catch up with the dynamics of the web development world.</h3>
             <div className="links">
                 <Link className="linkchild" to="/">About</Link>
-                <a className="linkchild" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1ca2-CwJA19s8AIClKO-gbGWlA9SroAF1/view?usp=sharing">Resume</a>
+                <a className="linkchild" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/10J1RtfcxeboInKvadN3tVioaf90wgnPj/view?usp=sharing">Resume</a>
                 <Link className="linkchild" to="/projects">Projects</Link>
                 <Link className="linkchild" to="/contact">Contact</Link>
             </div>
