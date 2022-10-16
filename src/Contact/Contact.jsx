@@ -3,6 +3,8 @@ import Navbar from "../Navbar/Navbar"
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import ForwardToInboxOutlinedIcon from '@mui/icons-material/ForwardToInboxOutlined';
 import PhoneForwardedOutlinedIcon from '@mui/icons-material/PhoneForwardedOutlined';
+import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
+
 
 import React from 'react'
 

@@ -1,11 +1,13 @@
 .contactheading{
     color: white;
+    text-align: center;
 }
 
 .contatcards{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
     color: white;
 }
@@ -14,6 +16,7 @@
     width: 250px;
     height: min-content;
     display: flex;
+    align-items: center;
     flex-direction: row;
     align-items: center;
     gap: 20px;
@@ -26,6 +29,7 @@
 
 .maininfo{
     color: green;
+    margin: 0px;
 }
 
 .socialimg{

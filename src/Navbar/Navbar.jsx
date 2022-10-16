@@ -27,7 +27,7 @@ function Navbar() {
             <h1 style={{margin: "0px", color: "white"}}>Santosh</h1>
             <div className="navbarlinks">
                 <Link className="remdec" to="/">About</Link>
-                <a target="_blank" rel="noreferrer" className="remdec" href="https://drive.google.com/file/d/10J1RtfcxeboInKvadN3tVioaf90wgnPj/view?usp=sharing">Resume</a>
+                <a target="_blank" rel="noreferrer" className="remdec" href="https://drive.google.com/file/d/1IsvngZBA1GxdaFY3z9uPIhtpH2sTowiV/view?usp=sharing">Resume</a>
                 <Link className="remdec" to="/projects">Projects</Link>
                 <Link className="remdec" to="/contact">Contact</Link>
             </div>
@@ -44,7 +44,7 @@ function Navbar() {
                 <DialogContentText id="alert-dialog-slide-description">
                   <div style={{display: "flex", flexDirection: "column", color: "black", textAlign: "center"}}>
                     <Link style={{textDecoration: "none"}} to="/">About</Link>
-                    <a style={{textDecoration: "none"}} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/10J1RtfcxeboInKvadN3tVioaf90wgnPj/view?usp=sharing">Resume</a>
+                    <a style={{textDecoration: "none"}} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1IsvngZBA1GxdaFY3z9uPIhtpH2sTowiV/view?usp=sharing">Resume</a>
                     <Link style={{textDecoration: "none"}} to="/projects">Projects</Link>
                     <Link style={{textDecoration: "none"}} to="/contact">Contact</Link>
                   </div>

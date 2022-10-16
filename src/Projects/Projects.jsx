@@ -62,7 +62,11 @@ function Projects() {
         <h3 className="heading">Explore my work <span>____</span></h3>
         <div className="projectscontainer">
           <div className="indiproj">
-            <h4 style={{textAlign: "Center", color: "white"}}>A full stack blog app using MERN stack</h4>
+            <h4 style={{textAlign: "Center", color: "white", marginBottom: "5px"}}>A full stack blog app using MERN stack</h4>
+            <div style={{display: "flex", justifyContent: "space-between", marginBottom: "4px"}}>
+                <a title="click to go to frontend code" style={{fontSize: "13px",textDecoration: "none", color: "blue"}} target="_blank" rel="noreferrer" href="https://github.com/santosh-ksh7/capstone-project-frontend-MTC">Go to Frontend Source Code</a>
+                <a title="click to go to backend code" style={{fontSize: "13px", textDecoration: "none", color: "blue"}} target="_blank" rel="noreferrer" href="https://github.com/santosh-ksh7/capstone-project-backend-MTC">Go to Backend Source Code</a>
+            </div>
             <img src={Capturebloog} alt="blog-app" className="projprev" />
             {/* Project details display */}
             <Dialog
@@ -79,15 +83,22 @@ function Projects() {
                 </DialogContentText>
                 </DialogContent>
             </Dialog>
+            <h4 style={{fontSize: "13px", textAlign: "Center", color: "white", margin: "0px"}}>Common User Credentials</h4>
+            <div style={{display: "flex", justifyContent: "space-between"}}>
+                  <p style={{fontSize: "13px", textAlign: "Center", color: "white", margin: "0px"}}><strong>Email id:</strong> zzz@gmail.com</p>
+                  <p style={{fontSize: "13px", textAlign: "Center", color: "white", margin: "0px"}}><strong>Password:</strong> 12345678</p>
+            </div>
             {/* Button to open dialog */}
-            <div style={{display: "flex", justifyContent: "space-around"}}>
-              <Button variant="outlined" onClick={()=>handleClickOpen()}>Show details</Button>
+            <div style={{display: "flex", justifyContent: "space-around", marginTop: "5px"}}>
               {/* update the use navigate link to open app in a new tab */}
-              <a style={{textDecoration: "none"}} target="_blank" rel="noreferrer" href="https://coruscating-parfait-9f3f00.netlify.app"><Button variant="outlined">Open App</Button></a>
+              <a style={{textDecoration: "none"}} target="_blank" rel="noreferrer" href="https://coruscating-parfait-9f3f00.netlify.app"><Button variant="outlined">Go to App</Button></a>
+              <Button variant="outlined" onClick={()=>handleClickOpen()}>Project details</Button>
+              {/* update the link */}
             </div>
           </div>
           <div className="indiproj">
-            <h4 style={{textAlign: "Center", color: "white"}}>A Todo app based on react</h4>
+            <h4 style={{textAlign: "Center", color: "white", marginBottom: "5px"}}>A Todo app based on react</h4>
+            <p style={{textAlign: "center", margin: "0px", marginBottom: "3px"}}><a title="click to go to source code" style={{textDecoration: "none", color: "blue", fontSize: "13px"}} target="_blank" rel="noreferrer" href="https://github.com/santosh-ksh7/todo_app_with_reminder">Go to Source Code</a></p>
             <img src={todo} alt="blog-app" className="projprev" />
             {/* Project details display */}
             <Dialog
@@ -112,7 +123,8 @@ function Projects() {
             </div>
           </div>
           <div className="indiproj">
-            <h4 style={{textAlign: "Center", color: "white"}}>A Student-teacher mgt. app based on react</h4>
+            <h4 style={{textAlign: "Center", color: "white", marginBottom: "5px"}}>A Student-teacher mgt. app based on react</h4>
+            <p style={{textAlign: "center", margin: "0px", marginBottom: "4px"}}><a style={{fontSize: "13px", textDecoration: "none", color: "blue"}} target="_blank" rel="noreferrer" href="https://github.com/santosh-ksh7/React-Day-34-task">Go to Source Code</a></p>
             <img src={studteach} alt="blog-app" className="projprev" />
             {/* Project details display */}
             <Dialog

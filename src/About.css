@@ -8,13 +8,14 @@
 .links{
     display: flex;
     justify-content: flex-start;
-    gap: 25px;
+    gap: 40px;
 }
 
 .linkchild{
     text-decoration: none;
     color: whitesmoke;
     transition: transform 0.5s;
+    font-size: 17px;
 }
 
 .linkchild:hover{
@@ -26,7 +27,8 @@
     margin-top: 30px;
     display: flex;
     justify-content: flex-start;
-    gap: 25px;
+    gap: 40px;
+    align-items: center;
 }
 
 .linkdimg{
@@ -53,4 +55,53 @@
     .codimg{
         display: none;
     }
+
+    .showskill{
+        display: none;
+    }
+}
+
+
+.skillimg{
+    width: 70px;
+    height: 60px;
+    object-fit: contain;
+    background-color: black;
+}
+
+.skill_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80px;
+    height: 100px; */
+    /* background-color: black; */
+    padding: 2px;
+    transition: transform 0.5s;
+}
+
+.allskillcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill_container:hover{
+    transform: scale(1.1);
+}
+
+.text_decor{
+    /* text-decoration: underline;
+    text-decoration-thickness: 2px; */
+    margin-top: 25px;
+    /* margin-bottom: 10px; */
+}
+
+.text_decor::before{
+    content: "➤ ";
+    font-size: 15px;
+}
+
+.makegreen{
+    color: green;
 }
