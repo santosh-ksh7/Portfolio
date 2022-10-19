@@ -3,7 +3,8 @@ import Navbar from "../Navbar/Navbar"
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import ForwardToInboxOutlinedIcon from '@mui/icons-material/ForwardToInboxOutlined';
 import PhoneForwardedOutlinedIcon from '@mui/icons-material/PhoneForwardedOutlined';
-import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 import React from 'react'
@@ -58,11 +59,41 @@ function Contact() {
                         </div>
                     </div>
                 </div>
+                <a title="Go to GitHub profile" style={{cursor: "pointer", textDecoration: "none"}} href="https://github.com/santosh-ksh7" target="_blank" rel="noreferrer">
+                    <div className="ContactSingleCard">
+                        <div className="icon">
+                            <GitHubIcon style={{color:"grey", fontSize: "40px"}} />
+                        </div>
+                        <div className="infocont">
+                            <div>
+                                <h3 style={{color: "white", margin: "0px"}}>GitHub</h3>
+                            </div>
+                            <div>
+                                <p className="maininfo">Go to GitHub</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a title="Go to LinkedIn profile" style={{cursor: "pointer", textDecoration: "none"}} href="https://www.linkedin.com/in/santosh-kumar-singh-50b343221/" target="_blank" rel="noreferrer">
+                    <div className="ContactSingleCard">
+                        <div className="icon">
+                            <LinkedInIcon style={{color:"grey", fontSize: "40px"}} />
+                        </div>
+                        <div className="infocont">
+                            <div>
+                                <h3 style={{color: "white", margin: "0px"}}>LinkedIn</h3>
+                            </div>
+                            <div>
+                                <p className="maininfo">Go to LinkedIn</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div className="socialhandles">
+            {/* <div className="socialhandles">
                 <a className="socialimg" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/santosh-kumar-singh-50b343221/"><img className="linkdimg" src="https://cdn2.iconfinder.com/data/icons/popular-social-media-flat/48/Popular_Social_Media-22-512.png" alt="LinkedIn" /></a>
                 <a className="socialimg" target="_blank" rel="noreferrer" href="https://github.com/santosh-ksh7"><img className="linkdimg" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" /></a>
-            </div>
+            </div> */}
         </div>
     </div>
   )

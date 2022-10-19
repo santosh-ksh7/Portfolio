@@ -14,6 +14,8 @@ import Button from '@mui/material/Button';
  import DialogContentText from '@mui/material/DialogContentText';
  import DialogTitle from '@mui/material/DialogTitle';
 
+ 
+
 function Projects() {
 
    // dialog-box for full stack blog app
@@ -78,7 +80,7 @@ function Projects() {
                 <DialogTitle style={{textAlign: "center"}}>{"Project summary & Technical highlights"}</DialogTitle>
                 <DialogContent>
                 <DialogContentText id="alert-dialog-slide-description">
-                    <p style={{textAlign: "center"}}><img src={Capturebloginfo} alt="Project info" style={{width: "450px", height: "350px"}} /></p> 
+                    <span style={{textAlign: "center"}}><img src={Capturebloginfo} alt="Project info" style={{width: "450px", height: "350px"}} /></span> 
                     <Button variant="contained" style={{marginLeft: "45%"}} onClick={()=>handleClose()}>Close</Button>
                 </DialogContentText>
                 </DialogContent>
@@ -110,7 +112,7 @@ function Projects() {
                 <DialogTitle style={{textAlign: "center"}}>{"Project summary"}</DialogTitle>
                 <DialogContent>
                 <DialogContentText id="alert-dialog-slide-description">
-                    <p style={{textAlign: "center"}}><img src={todoinfo} alt="Project info" style={{width: "300px", height: "100px", objectFit: "contain"}} /></p> 
+                    <span style={{textAlign: "center"}}><img src={todoinfo} alt="Project info" style={{width: "300px", height: "100px", objectFit: "contain"}} /></span> 
                     <Button variant="contained" style={{marginLeft: "40%"}} onClick={()=>handleClose1()}>Close</Button>
                 </DialogContentText>
                 </DialogContent>
@@ -136,7 +138,7 @@ function Projects() {
                 <DialogTitle style={{textAlign: "center"}}>{"Project summary"}</DialogTitle>
                 <DialogContent>
                 <DialogContentText id="alert-dialog-slide-description">
-                <p style={{textAlign: "center"}}><img src={studteachinfo} alt="Project info" style={{width: "300px", height: "100px", objectFit: "contain"}} /></p>  
+                <span style={{textAlign: "center"}}><img src={studteachinfo} alt="Project info" style={{width: "300px", height: "100px", objectFit: "contain"}} /></span>  
                     <Button variant="contained" style={{marginLeft: "40%"}} onClick={()=>handleClose2()}>Close</Button>
                 </DialogContentText>
                 </DialogContent>
