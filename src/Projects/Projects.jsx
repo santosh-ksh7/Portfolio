@@ -2,6 +2,8 @@ import Navbar from "../Navbar/Navbar"
 import "./Projects.css"
 import Capturebloog from "./Capturebloog.PNG"
 import Capturebloginfo from "./Captureblogfinfo.PNG"
+import Capture1234 from "./Capture1234.PNG"
+import Capture1234det from "./Capture1234det.PNG"
 import todo from "./Capturetodo.PNG"
 import todoinfo from "./Capturetodoinfo.PNG"
 import studteach from "./Capturestud-teach.PNG"
@@ -29,6 +31,18 @@ function Projects() {
      setOpen(false);
    };
    // dialog-box for full stack blog app
+
+      // dialog-box for full stack leave tracker app
+      const [open3, setOpen3] = useState(false);
+
+      const handleClickOpen3 = () => {
+        setOpen3(true);
+      };
+   
+      const handleClose3 = () => {
+        setOpen3(false);
+      };
+      // dialog-box for full stack leave tracker app
 
    // dialog-box for todo react app
    const [open1, setOpen1] = useState(false);
@@ -95,6 +109,41 @@ function Projects() {
               {/* update the use navigate link to open app in a new tab */}
               <a style={{textDecoration: "none"}} target="_blank" rel="noreferrer" href="https://coruscating-parfait-9f3f00.netlify.app"><Button variant="outlined">Go to App</Button></a>
               <Button variant="outlined" onClick={()=>handleClickOpen()}>Project details</Button>
+              {/* update the link */}
+            </div>
+          </div>
+          <div className="indiproj">
+            <h4 style={{textAlign: "Center", color: "white", marginBottom: "5px"}}>A full stack leave tracker using MERN stack</h4>
+            <div style={{display: "flex", justifyContent: "space-between", marginBottom: "4px"}}>
+                <a title="click to go to frontend code" style={{fontSize: "13px",textDecoration: "none", color: "blue"}} target="_blank" rel="noreferrer" href="https://github.com/santosh-ksh7/evvo_tech_task_frontend">Go to Frontend Source Code</a>
+                <a title="click to go to backend code" style={{fontSize: "13px", textDecoration: "none", color: "blue"}} target="_blank" rel="noreferrer" href="https://github.com/santosh-ksh7/evvo_tech_task_backend">Go to Backend Source Code</a>
+            </div>
+            <img src={Capture1234} alt="blog-app" className="projprev" />
+            {/* Project details display */}
+            <Dialog
+                open={open3}
+                keepMounted
+                onClose={handleClose3}
+                aria-describedby="alert-dialog-slide-description"
+            >
+                <DialogTitle style={{textAlign: "center"}}>{"Project summary & Technical highlights"}</DialogTitle>
+                <DialogContent>
+                <DialogContentText id="alert-dialog-slide-description">
+                <span style={{textAlign: "center"}}><img src={Capture1234det} alt="Project info" style={{width: "450px", height: "240px", objectFit: "contain"}} /></span> 
+                    <Button variant="contained" style={{marginLeft: "45%"}} onClick={()=>handleClose3()}>Close</Button>
+                </DialogContentText>
+                </DialogContent>
+            </Dialog>
+            <h4 style={{fontSize: "13px", textAlign: "Center", color: "white", margin: "0px"}}>Common User Credentials</h4>
+            <div style={{display: "flex", justifyContent: "space-between"}}>
+                  <p style={{fontSize: "13px", textAlign: "Center", color: "white", margin: "0px"}}><strong>Email id:</strong> scott@gmail.com</p>
+                  <p style={{fontSize: "13px", textAlign: "Center", color: "white", margin: "0px"}}><strong>Password:</strong> 123456789</p>
+            </div>
+            {/* Button to open dialog */}
+            <div style={{display: "flex", justifyContent: "space-around", marginTop: "5px"}}>
+              {/* update the use navigate link to open app in a new tab */}
+              <a style={{textDecoration: "none"}} target="_blank" rel="noreferrer" href="https://peaceful-caramel-f92dba.netlify.app/"><Button variant="outlined">Go to App</Button></a>
+              <Button variant="outlined" onClick={()=>handleClickOpen3()}>Project details</Button>
               {/* update the link */}
             </div>
           </div>

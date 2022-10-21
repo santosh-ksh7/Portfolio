@@ -72,7 +72,7 @@ function About() {
                 <h3 className="text_decor">Quick links <span className="makegreen">_____</span></h3>
                 <div className="links">
                     {/* <Link className="linkchild" to="/">About</Link> */}
-                    <a className="linkchild" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1IsvngZBA1GxdaFY3z9uPIhtpH2sTowiV/view?usp=sharing">Resume</a>
+                    <a className="linkchild" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1lyktPtefqvPOqv3dMoILj_Wq8ItnJIPm/view?usp=sharing">Resume</a>
                     <Link className="linkchild" to="/projects">Projects</Link>
                     <Link className="linkchild" to="/contact">Contact</Link>
                 </div>
