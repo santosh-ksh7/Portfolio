@@ -42,7 +42,7 @@ function Navbar() {
                 <DialogTitle style={{textAlign: "center"}}>{"Quick Links"}</DialogTitle>
                 <DialogContent>
                 <DialogContentText id="alert-dialog-slide-description">
-                  <span style={{display: "flex", flexDirection: "column", color: "black", textAlign: "center"}}>
+                  <span style={{display: "flex", flexDirection: "column", color: "black", textAlign: "center", gap: "10px"}}>
                     <Link style={{textDecoration: "none"}} to="/">About</Link>
                     <a style={{textDecoration: "none"}} target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1IsvngZBA1GxdaFY3z9uPIhtpH2sTowiV/view?usp=sharing">Resume</a>
                     <Link style={{textDecoration: "none"}} to="/projects">Projects</Link>
