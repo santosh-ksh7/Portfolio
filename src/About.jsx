@@ -17,11 +17,15 @@ function About() {
             text: "CSS"
         },
         {
+            img_url: "https://images.indepth.dev/images/2020/10/Exploring-Angular-DOM-manipulation-techniques-using-ViewContainerRef-white.png",
+            text: "DOM Manipulation"
+        },
+        {
             img_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
             text: "React"
         },
         {
-            img_url: "https://raw.githubusercontent.com/alDuncanson/react-hooks-snippets/master/icon.png",
+            img_url: "https://miro.medium.com/max/590/0*HG6RtyHpHkiktHRG.png",
             text: "React-Hooks"
         },
         {
@@ -35,6 +39,10 @@ function About() {
         {
             img_url: "https://miro.medium.com/max/1400/1*5FcvZufrMDzs1ef63NjhXw.jpeg",
             text: "Redux-Thunk"
+        },
+        {
+            img_url: "https://mui.com/static/logo.png",
+            text: "Material-UI"
         },
         {
             img_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png",
@@ -72,7 +80,7 @@ function About() {
                 <h3 className="text_decor">Quick links <span className="makegreen">_____</span></h3>
                 <div className="links">
                     {/* <Link className="linkchild" to="/">About</Link> */}
-                    <a className="linkchild" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1lyktPtefqvPOqv3dMoILj_Wq8ItnJIPm/view?usp=sharing">Resume</a>
+                    <a className="linkchild" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1Wa7WgNKTJ2Ze6aiSjgi1hZ3OxuM71xEH/view?usp=sharing">Resume</a>
                     <Link className="linkchild" to="/projects">Projects</Link>
                     <Link className="linkchild" to="/contact">Contact</Link>
                 </div>
